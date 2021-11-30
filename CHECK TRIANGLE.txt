@@ -1,0 +1,21 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int a,b,c;
+    printf("Enter the sides of the traingle a,b and c");
+    scanf("%d%d%d",&a,&b,&c);
+    if (a==b && b==c)
+    {
+        printf("The triangle is equilateral");
+    }
+    else if (a==b||b==c||c==a)
+    {
+        printf("The triangle is isosceles");
+    }
+    else 
+    {
+        printf("The triangle is scalene");
+    }
+    return 0;
+}
