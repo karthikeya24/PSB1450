@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() 
+{
+    int MB,GB;
+    printf("Enter the value in GB:");
+    scanf("%d",&GB);
+    MB=GB*1024;
+    printf("The value in MB is: %d",MB);
+    return 0;
+}
