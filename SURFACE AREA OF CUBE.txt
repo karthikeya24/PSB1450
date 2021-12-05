@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() 
+{
+    float a,SA;
+    printf("Enter the side of the cube:");
+    scanf("%f",&a);
+    SA=6*a*a;
+    printf("The surface area of the cube is %f",SA);
+    return 0;
+}
