@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() 
+{
+    float cm,inches;
+    printf("Enter the value in inches:");
+    scanf("%f",&inches);
+    cm=(inches*2.54);
+    printf("The value in cm is %f",cm);
+    return 0;
+}
