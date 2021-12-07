@@ -1,0 +1,55 @@
+#include <stdio.h>
+
+#include<math.h>
+
+int main()
+ {
+  
+double a,b,c;
+
+double root1,root2,realpart,imagepart;
+  
+double discriminant;
+    
+printf("Enter values of a,b,c of quadratic equation");
+    
+scanf("%lf%lf%lf",&a,&b,&c);
+    
+discriminant=b*b-(4*a*c);
+    
+if (discriminant<0)
+    
+{
+        
+root1=(-b+sqrt(discriminant==0))/(2*a);
+        
+root2=(-b-sqrt(discriminant==0))/(2*a);
+        
+printf("root1=%.2lf and root2 = %.2lf",root1,root2);
+   
+ }
+   
+ else if (discriminant==0)
+   
+{
+        
+printf("root1 = root2 = %.2lf", root1);
+    
+}
+    
+else
+   
+{
+   
+ realpart=-b/(2*a);
+   
+ imagepart=sqrt(-discriminant)/(2*a);
+   
+ printf("root1=%.2lf+%.2lfi and root2=%.2lf-%.2lfi",realpart,imagepart,realpart,imagepart);
+
+}
+    
+    
+return 0;
+
+}
