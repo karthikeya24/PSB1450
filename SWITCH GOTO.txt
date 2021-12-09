@@ -10,7 +10,7 @@ int ch;
     
 printf("Enter two numbers:");
     
-scanf("%f",&a,&b);
+scanf("%f%f",&a,&b);
 printf("Enter the choice:");
     
 scanf("%d",&ch);
