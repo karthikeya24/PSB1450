@@ -1,0 +1,32 @@
+#include <stdio.h>
+int main() {
+    int a,b,c,d,e,f;
+    printf("Enter the value of a:");
+    scanf("%d",&a);
+    printf("\nEnter the operation \n 1.Time(in Minutes) \n 2.Distance(in Kilometers) \n 3.Area(in Meter square ) \n 4.Volume(in Litres) \n 5.Temperature(in Celsius) \n");
+    scanf("%d",&c);
+    switch(c)
+    {
+    case 1:
+    b=a*60;
+    printf("The Time in Seconds is %d",b);
+    break;
+    case 2:
+    c=a*1000;
+    printf("The Distance in Meters is %d",c);
+    break;
+    case 3:
+    d=a*100;
+    printf("The Area in Centimetres square is  %d",d);
+    break;
+    case 4:
+    e=a*1000;
+    printf("The Volume in Milliliters is %d",e);
+    break;
+    case 5:
+    f=a+273;
+    printf("The Temperature in kelvin is %d",f);
+    break;
+    }
+    return 0;
+}
